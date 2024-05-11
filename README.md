@@ -20,18 +20,17 @@ python script controls the relay:
 
 
 ## Autostart at device startup
-crontab, systemmd, rc.local didn't work for graphical programs
+crontab, systemmd, rc.local didn't work for graphical programs.
 
-bash scripts
+there are 2 bash scripts which open a terminal and run the python script as  well as the npm run start command from the magic mirror repo
 
-
-
-open:
-'''
+To run them at startup go to:
+```
 nano etc/xdg/lxsession/LXDE-pi/autostart
-'''
+```
 
-add:
-'''
-@bash /home/myBashScript.sh
-'''
+and add:
+```
+@bash /home/termina_control.sh
+@bash /home/startmagic.sh
+```
