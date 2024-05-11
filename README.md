@@ -2,10 +2,8 @@ MagicMirror project
 
 A construction to integrate a smart mirror with an old frame
 
-![image](https://github.com/buehlpa/MagicMirror/assets/64488738/5d0d68c2-ffc5-4383-b887-3f38d14fd2fb)
-
-![image](https://github.com/buehlpa/MagicMirror/assets/64488738/cc714f17-6069-44a8-893d-70add986ae0e)
-
+<img src="https://github.com/buehlpa/MagicMirror/assets/64488738/cc714f17-6069-44a8-893d-70add986ae0e" width="400">
+<img src="https://github.com/buehlpa/MagicMirror/assets/64488738/5d0d68c2-ffc5-4383-b887-3f38d14fd2fb" width="400">
 
 from https://github.com/MagicMirrorOrg/MagicMirror
 
