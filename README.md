@@ -16,3 +16,22 @@ python script controls the relay:
 - 1PCS 3V Relay High Level Driver Module optocouple Relay Module for Arduino CA
 
 ![image](https://github.com/buehlpa/MagicMirror/assets/64488738/06c76c45-0a2c-499c-aa8a-4d883b7dcad5)
+
+
+
+## Autostart at device startup
+crontab, systemmd, rc.local didn't work for graphical programs
+
+bash scripts
+
+
+
+open:
+'''
+nano etc/xdg/lxsession/LXDE-pi/autostart
+'''
+
+add:
+'''
+@bash /home/myBashScript.sh
+'''
