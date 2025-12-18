@@ -27,29 +27,30 @@ python script controls the relay:
 ## Syncing via Windows
 Syncthing 
 
-```
- delete mm
+´´´
+pm2 delete mm
 pm2 start /home/raspelbeere1991/MagicMirror/mm_scripts/mm.sh --name mm --restart-delay 5000
 pm2 save
+´´´
 
-e
-```na
-ble startup , there will be a line to paste and run
-pm2```
- startup
+enable startup , there will be a line to paste and run
 
-# ```tstop
+´´´
+pm2 startup
+´´´
 
-pm```2 stop
+to stop
 
-#t```orun again
+´´´
+pm2 stop
+´´´
+to run again
 
-p
-m```2 s
-tart
+´´´
+pm2 start
+´´´
 
 
-#```
 
  Autostart at device startup
 crontab, systemmd, rc.local didn't work for graphical programs.
