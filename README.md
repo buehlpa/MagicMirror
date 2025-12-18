@@ -22,20 +22,37 @@ python script controls the relay:
 
 ![image](https://github.com/buehlpa/MagicMirror/assets/64488738/06c76c45-0a2c-499c-aa8a-4d883b7dcad5)
 
+! currently not working since moving to rasperry 5
+
+## Syncing via Windows
+Syncthing 
+
+```
+ delete mm
+pm2 start /home/raspelbeere1991/MagicMirror/mm_scripts/mm.sh --name mm --restart-delay 5000
+pm2 save
+
+e
+```na
+ble startup , there will be a line to paste and run
+pm2```
+ startup
+
+# ```tstop
+
+pm```2 stop
+
+#t```orun again
+
+p
+m```2 s
+tart
 
 
-## Autostart at device startup
+#```
+
+ Autostart at device startup
 crontab, systemmd, rc.local didn't work for graphical programs.
 
-there are 2 bash scripts which open a terminal and run the python script as  well as the npm run start command from the magic mirror repo
 
-To run them at startup go to:
-```
-nano etc/xdg/lxsession/LXDE-pi/autostart
-```
 
-and add:
-```
-@bash /home/termina_control.sh
-@bash /home/startmagic.sh
-```
