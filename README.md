@@ -27,28 +27,28 @@ python script controls the relay:
 ## Syncing via Windows
 Syncthing 
 
-´´´
+```
 pm2 delete mm
 pm2 start /home/raspelbeere1991/MagicMirror/mm_scripts/mm.sh --name mm --restart-delay 5000
 pm2 save
-´´´
+```
 
 enable startup , there will be a line to paste and run
 
-´´´
+```
 pm2 startup
-´´´
+```
 
 to stop
 
-´´´
+```
 pm2 stop
-´´´
+```
 to run again
 
-´´´
+```
 pm2 start
-´´´
+```
 
 
 
