@@ -50,7 +50,8 @@ to run again
 pm2 start
 ```
 
-
+open a new window with
+ctrl+alt+t over all other processes
 
  Autostart at device startup
 crontab, systemmd, rc.local didn't work for graphical programs.
